@@ -27,3 +27,27 @@ Add `antigen bundle trystan2k/zsh-npm-plugin` into `.zshrc`
 ### Using [zgen](https://github.com/tarjoilija/zgen)
 
 Add `zgen load trystan2k/zsh-npm-plugin` into `.zshrc`
+
+## Aliases
+
+| Alias     | Command                     | Descripton                                                      |
+| :-------- | :-------------------------- | :-------------------------------------------------------------- |
+| `npmg`    | `npm i -g`                  | Install dependencies globally                                   |
+| `npmi`    | `npm i`                     | Install dependencies locally                                    |
+| `npmS`    | `npm i -S`                  | Install and save to dependencies in your package.json           |
+| `npmD`    | `npm i -D`                  | Install and save to dev-dependencies in your package.json       |
+| `npmE`    | `PATH="$(npm bin)":"$PATH"` | Run command from node_modules folder based on current directory |
+| `npmO`    | `npm outdated`              | Check which npm modules are outdated                            |
+| `npmV`    | `npm -v`                    | Check package versions                                          |
+| `npmL`    | `npm list`                  | List installed packages                                         |
+| `npmL0`   | `npm ls --depth=0`          | List top-level installed packages                               |
+| `npmlsg`  | `npm list -g`               | List installed packages globally                                |
+| `npmlsg0` | `npm list -g --depth=0`     | List top-level installed packages globally                      |
+| `npmst`   | `npm start`                 | Run npm start                                                   |
+| `npmt`    | `npm test`                  | Run npm test                                                    |
+| `npmR`    | `npm run`                   | Run npm scripts                                                 |
+| `npmP`    | `npm publish`               | Run npm publish                                                 |
+| `npmNew`  | `npm init`                  | Run npm init                                                    |
+| `npmclr!` | `rm -rf ./node_modules/`    | Clear node_modules in current directory                         |
+| `nre!`    | `npmclr! && npmi`           | Reinstall packages                                              |
+| `npmF`    | `npm search`                | Search in the npm database                                      |

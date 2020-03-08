@@ -56,7 +56,7 @@ alias npmNew="npm init"
 # ! for prevent accidental run
 alias npmclr!="rm -rf ./node_modules/"
 
-# Reinstall package
+# Reinstall packages
 # ! for prevent accidental run
 alias nre!="npmclr! && npmi"
 
