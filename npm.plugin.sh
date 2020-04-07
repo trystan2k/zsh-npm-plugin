@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Install dependencies globally
 alias npmg="npm i -g "
 
