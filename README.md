@@ -1,6 +1,6 @@
 # ZSH NPM Plugin
 
-[![v1.1.0](https://img.shields.io/badge/version-1.1.0-brightgreen.svg)](https://github.com/trystan2k/zsh-npm-plugin/tree/v1.1.0)
+[![v1.1.1](https://img.shields.io/badge/version-1.1.1-brightgreen.svg)](https://github.com/trystan2k/zsh-npm-plugin/tree/v1.1.1)
 
 ![](https://github.com/trystan2k/zsh-npm-plugin/workflows/CI-workflow/badge.svg)
 
