@@ -1,6 +1,6 @@
 # ZSH NPM Plugin
 
-![GitHub version](https://badge.fury.io/gh/trystan2k%2Fzsh-npm-plugin.svg)
+[![GitHub version](https://badge.fury.io/gh/trystan2k%2Fzsh-npm-plugin.svg)](https://badge.fury.io/gh/trystan2k%2Fzsh-npm-plugin)
 
 ![Build](https://github.com/trystan2k/zsh-npm-plugin/workflows/CI-workflow/badge.svg)
 
