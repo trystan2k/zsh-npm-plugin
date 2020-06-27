@@ -1,6 +1,6 @@
 {
     "name": "@trystan2k/zsh-npm-plugin",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A zsh plugin that add NPM custom alias",
     "keywords": [
         "trystan2k",
