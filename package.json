@@ -53,5 +53,8 @@
         "lint-staged": "^10.2.0",
         "sort-package-json": "^1.42.1",
         "standard-version": "^8.0.0"
+    },
+    "standard-version": {
+        "releaseCommitMessageFormat": "chore: release {{currentTag}}"
     }
 }
