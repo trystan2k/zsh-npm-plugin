@@ -1,5 +1,20 @@
 # ZSH NPM Plugin
 
+**IMPORTANT:** This branch will be deleted soon. Please, use the new branch `main` instead.
+
+**IMPORTANT:** Since May/2024 the default branch has changed from `master` to `main`. If you have this plugin installed or hae cloned this repository before this date, you need to update your local repository to use the new branch. You can do this by executing the following command in the repository folder:
+
+```sh
+git branch -m master main
+git fetch origin
+
+git branch -u origin/main main
+```
+
+Or uninstalling the plugin and installing it again.
+
+**======**
+
 [![GitHub version](https://badge.fury.io/gh/trystan2k%2Fzsh-npm-plugin.svg)](https://badge.fury.io/gh/trystan2k%2Fzsh-npm-plugin)
 
 ![Build](https://github.com/trystan2k/zsh-npm-plugin/workflows/CI-workflow/badge.svg)
